@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./_app/immutable/assets/2.a64420b5.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.ae655406.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.eac1245e.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.2a2f8d30.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6a6d9526.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.887389a2.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.a809984e.js"><title>1 in a million</title><!-- HEAD_svelte-1r6htk4_START --><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold&display=swap"><!-- HEAD_svelte-1r6htk4_END -->
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">   <div id="cy-container" class="svelte-1rrw6c3"></div> <div id="overlay" class="svelte-1rrw6c3" data-svelte-h="svelte-1cdd7nz"><h1>CGP Grey 1-in-a-million visualization</h1> <h2>Every node is a video and is clickable.</h2> <h3 class="svelte-1rrw6c3">Controls</h3> <section><ul class="svelte-1rrw6c3"><li>Scroll to zoom</li> <li>Drag to pan</li> <li>Tap node to watch video</li></ul></section> <a href="https://www.youtube.com/watch?v=PmWQmZXYd74" target="_blank" class="svelte-1rrw6c3">Original Video</a> </div> 
+			
+			<script>
+				{
+					__sveltekit_l1vpo8 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.ae655406.js"),
+						import("./_app/immutable/entry/app.2a2f8d30.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
