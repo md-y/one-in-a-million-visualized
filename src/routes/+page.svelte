@@ -1,8 +1,7 @@
 <script lang="ts">
-	import cytoscape, { type Core } from 'cytoscape';
+	import cytoscape from 'cytoscape';
 	import elements from '../elements.json';
 
-	let width: number, height: number;
 	const parsedElements = elements.map((elem) => {
 		let classes;
 
@@ -104,12 +103,7 @@
 	<title>1 in a million</title>
 </svelte:head>
 
-<div
-	id="cy-container"
-	bind:this={cyContainer}
-	bind:clientWidth={width}
-	bind:clientHeight={height}
-/>
+<div id="cy-container" bind:this={cyContainer} />
 
 <div id="overlay">
 	<h1>CGP Grey 1-in-a-million visualization</h1>
